@@ -1,8 +1,4 @@
-
-Aplicación de uso de la API de pokemones.co
-
-<html> 
- <head> 
+<html><head> 
  </head> 
  <body> 
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script> 
@@ -26,9 +22,11 @@ Aplicación de uso de la API de pokemones.co
     <br> <button v-on:click="pidePokes(siguiente)" class="btn btn-primary">Siguientes Pokemones</button> <button v-on:click="pidePokes(anterior)" class="btn btn-warning">Pokemones Anteriores</button> 
     <p> Total de Pokemones:{{total}} </p> 
    </div> 
-  </div>
-<script>
-     var app=new Vue({
+  </div> 
+  
+  <script>
+   
+   var app=new Vue({
     el:"#app1",
     data:
     {    // aqui declaramos las variables
@@ -69,6 +67,8 @@ Aplicación de uso de la API de pokemones.co
         }
     },
 }) //fin de objeto Vue
- </script>     
-</body>
-</html>
+  </script>
+ 
+</body></html>
+
+
